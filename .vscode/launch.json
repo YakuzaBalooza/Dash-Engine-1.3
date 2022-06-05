@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "DashEngine (Debug)",
+			"request": "launch",
+			"preLaunchTask": "DashEngine Win64 Debug Build",
+			"program": "D:\\DashEngine\\DashEngine1.2\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Softwares\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Softwares\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DashEngine (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "DashEngine Win64 DebugGame Build",
+			"program": "D:\\DashEngine\\DashEngine1.2\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Softwares\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Softwares\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DashEngine (Development)",
+			"request": "launch",
+			"preLaunchTask": "DashEngine Win64 Development Build",
+			"program": "D:\\DashEngine\\DashEngine1.2\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\Softwares\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Softwares\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DashEngine (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "DashEngine Win64 Shipping Build",
+			"program": "D:\\DashEngine\\DashEngine1.2\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Softwares\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Softwares\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DashEngine (Test)",
+			"request": "launch",
+			"preLaunchTask": "DashEngine Win64 Test Build",
+			"program": "D:\\DashEngine\\DashEngine1.2\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Softwares\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Softwares\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DashEngineEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "DashEngineEditor Win64 Debug Build",
+			"program": "D:\\Softwares\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject"
+			],
+			"cwd": "D:\\Softwares\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Softwares\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DashEngineEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "DashEngineEditor Win64 DebugGame Build",
+			"program": "D:\\Softwares\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject"
+			],
+			"cwd": "D:\\Softwares\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Softwares\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DashEngineEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "DashEngineEditor Win64 Development Build",
+			"program": "D:\\Softwares\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject"
+			],
+			"cwd": "D:\\Softwares\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Softwares\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Softwares\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Softwares\\UE_4.26"
+		}
+	]
+}

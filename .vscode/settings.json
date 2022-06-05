@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"D:/DashEngine/DashEngine1.2/.git": true,
+		"D:/DashEngine/DashEngine1.2/.vscode": true,
+		"D:/DashEngine/DashEngine1.2/Content": true,
+		"D:/DashEngine/DashEngine1.2/DerivedDataCache": true,
+		"D:/DashEngine/DashEngine1.2/Intermediate": true,
+		"D:/DashEngine/DashEngine1.2/Saved": true
+	}
+}

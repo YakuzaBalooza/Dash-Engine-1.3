@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "DashEngine Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Debug",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Debug",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Debug",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"DebugGame",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"DebugGame",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"DebugGame",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Development",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Development",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Development",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Shipping",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Shipping",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Shipping",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Test",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Test",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win32",
+				"Test",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Debug",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Debug",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Debug",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"DebugGame",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"DebugGame",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"DebugGame",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Development",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Development",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Development",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Shipping",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Shipping",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Shipping",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Test",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Test",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngine Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngine Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngine",
+				"Win64",
+				"Test",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngineEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngineEditor",
+				"Win64",
+				"Debug",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngineEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngineEditor",
+				"Win64",
+				"Debug",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngineEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngineEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngineEditor",
+				"Win64",
+				"Debug",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngineEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngineEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngineEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngineEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngineEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngineEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngineEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngineEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngineEditor",
+				"Win64",
+				"Development",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngineEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DashEngineEditor",
+				"Win64",
+				"Development",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DashEngineEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		},
+		{
+			"label": "DashEngineEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DashEngineEditor",
+				"Win64",
+				"Development",
+				"D:\\DashEngine\\DashEngine1.2\\DashEngine.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Softwares\\UE_4.26"
+			}
+		}
+	]
+}

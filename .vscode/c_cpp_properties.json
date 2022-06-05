@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "DashEngineEditor Editor Win64 Development (DashEngine)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\DashEngine\\DashEngine1.2\\.vscode\\compileCommands_DashEngine.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\DashEngine\\DashEngine1.2\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
