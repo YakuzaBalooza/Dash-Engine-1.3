@@ -3,6 +3,8 @@
 
 ***It is recommended to have some prior knowledge with navigating and using Unreal Engine 4 to get the most out of Dash 1.3.***
 
+***Dash Engine 1.3 was developed using UE4 4.27 and as such is not compatible with prior versions of Unreal.***
+
 # Dash Engine 1.3
 
 Welcome to Dash Engine 1.3!
