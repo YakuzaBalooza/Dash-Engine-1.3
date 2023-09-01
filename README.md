@@ -3,6 +3,8 @@
 
 ***It is recommended to have some prior knowledge with navigating and using Unreal Engine 4 to get the most out of Dash 1.3.***
 
+***Dash Engine 1.3 was developed using UE4 4.27 and as such is not compatible with prior versions of Unreal.***
+
 # Dash Engine 1.3
 
 Welcome to Dash Engine 1.3!
@@ -21,8 +23,9 @@ Luckily, we have a handy video to help you out!
 https://www.youtube.com/watch?v=E1kxe2q7DmY
 
 # Screenshots
-![Cinematic1](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/38909372-7aa2-4591-b434-809afca49a73)
-![Editor1](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/04affbf7-2054-4d1b-ada9-8cb381283ad9)
-![Game5](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/a8e17598-2d73-479c-9e3d-1492e060afd2)
-![Menu1](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/5855fb63-fb86-44fb-9276-14ee8f103c0c)
-![Menu3](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/aabb5ca3-ac6e-4daf-adc2-69bbeae12451)
+![Cinematic1](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/973b6361-ad7d-4ca5-80bf-61557fdedd7d)
+![Editor1](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/1ec7c0e6-f792-4993-ac0c-2966a5c26496)
+![Game5](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/c2828a6b-7ee4-48cf-87aa-ecea6fafa164)
+![Menu3](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/62d1251b-5bd9-467e-ad1f-f21c24d03c7f)
+![Menu1](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/5d66e0c8-076d-4e9d-8b8c-8b2a17273762)
+
