@@ -21,8 +21,10 @@ Of course, you don't have to stick with what's present in the base framework. Ev
 
 Dash Engine uses C++, and as such requires a unique compilation method. You can't open the project straight out the box sadly.
 
-Luckily, we have a handy video to help you out!
+Luckily, there's a handy video to help you out!
 https://www.youtube.com/watch?v=E1kxe2q7DmY
+
+***IMPORTANT TO NOTE:*** The above video by Nova was created back when Dash Engine 1.1 released. Dash 1.1 had a required step involving an executable called "dashgen.exe". This step is not required for Dash 1.2 and 1.3, and as such you should be able to ignore the dashgen.exe step and everything work fine. All other steps still apply.
 
 # Screenshots
 ![Cinematic1](https://github.com/YakuzaBalooza/Dash-Engine-1.3/assets/62483766/973b6361-ad7d-4ca5-80bf-61557fdedd7d)
