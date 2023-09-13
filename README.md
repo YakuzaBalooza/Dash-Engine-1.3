@@ -5,7 +5,7 @@
 
 ***Dash Engine 1.3 was developed using UE4 4.27 and as such is not compatible with other versions of Unreal.***
 
-***Many particles in Dash Engine depend on the Cascade particle system, which is depricated in Unreal Engine 5. As such, it is NOT recommended to use UE5 with Dash Engine.***
+***Many particles in Dash Engine depend on the Cascade particle system, which is depricated in Unreal Engine 5. I myself will also have difficulty debugging and testing issues you may encounter with a UE5 compile due to me not using UE5 myself. As such, it is NOT recommended to use UE5 with Dash Engine.***
 
 # Dash Engine 1.3
 
